@@ -1,25 +1,48 @@
 const TerminalCard = () => {
   return (
-    <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl">
-      <p className="text-green-400">ashok@kali:~$ whoami</p>
+    <div className="overflow-hidden rounded-2xl border border-slate-700 bg-slate-900 shadow-2xl">
+      {/* Terminal Header */}
+      <div className="flex items-center gap-2 border-b border-slate-700 bg-slate-800 px-4 py-3">
+        <div className="h-3 w-3 rounded-full bg-red-500"></div>
 
-      <p className="text-white mt-2">Ashok Tamata</p>
+        <div className="h-3 w-3 rounded-full bg-yellow-500"></div>
 
-      <br />
+        <div className="h-3 w-3 rounded-full bg-green-500"></div>
 
-      <p className="text-green-400">ashok@kali:~$ role</p>
+        <span className="ml-4 text-sm text-slate-400">Terminal</span>
+      </div>
 
-      <p className="text-white mt-2">Aspiring Penetration Tester</p>
+      {/* Terminal Body */}
+      <div className="space-y-6 p-6 font-mono text-sm">
+        <div>
+          <p className="text-green-400">ashok@kali:~$ whoami</p>
 
-      <br />
+          <p className="mt-2 text-white">Ashok Tamata</p>
+        </div>
 
-      <p className="text-green-400">ashok@kali:~$ focus</p>
+        <div>
+          <p className="text-green-400">ashok@kali:~$ role</p>
 
-      <ul className="text-slate-300 mt-2 space-y-2">
-        <li>• Web Application Security</li>
-        <li>• Network Security</li>
-        <li>• Secure Development</li>
-      </ul>
+          <p className="mt-2 text-white">Penetration Testing | Web Security</p>
+        </div>
+
+        <div>
+          <p className="text-green-400">ashok@kali:~$ focus</p>
+
+          <ul className="mt-2 space-y-2 text-slate-300">
+            <li>• Web Application Security</li>
+            <li>• Network Penetration Testing</li>
+            <li>• Secure Web Development</li>
+          </ul>
+        </div>
+
+        <div>
+          <p className="text-green-400">
+            ashok@kali:~$
+            <span className="animate-pulse">█</span>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
