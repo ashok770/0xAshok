@@ -1,0 +1,36 @@
+export const labs = [
+  {
+    id: 1,
+    title: "Nmap Network Enumeration",
+    difficulty: "Easy",
+    platform: "Local Lab",
+    tools: ["Nmap", "Wireshark"],
+    learned: ["Host Discovery", "Service Enumeration", "Version Detection"],
+    status: "Completed",
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "DVWA SQL Injection",
+    difficulty: "Medium",
+    platform: "DVWA",
+    tools: ["Burp Suite", "SQLMap"],
+    learned: ["SQL Injection", "Request Interception", "Database Enumeration"],
+    status: "Completed",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "Drupal Enumeration",
+    difficulty: "Medium",
+    platform: "DC-1",
+    tools: ["Nmap", "Searchsploit"],
+    learned: [
+      "Drupal Fingerprinting",
+      "Exploit Research",
+      "Service Enumeration",
+    ],
+    status: "Completed",
+    featured: true,
+  },
+];
