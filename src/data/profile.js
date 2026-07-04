@@ -1,5 +1,9 @@
+import profileImage from "../assets/images/profile.jpg";
+
 export const profile = {
   name: "Ashok Tamata",
+
+  image: profileImage,
 
   greeting: "Hello, I'm",
 
@@ -19,5 +23,17 @@ export const profile = {
     github: "#",
     linkedin: "#",
     email: "mailto:yourmail@example.com",
+  },
+
+  about: {
+    heading: "About Me",
+
+    description:
+      "I am a Computer Science student with a strong interest in Penetration Testing, Web Application Security, and Secure Software Development. My journey started with full-stack web development using the MERN stack and gradually evolved into cybersecurity through hands-on labs, security assessments, and practical learning.",
+
+    experience:
+      "I have worked on MERN applications, completed cybersecurity internship projects, practiced penetration testing in controlled lab environments, and documented my learning through technical writeups.",
+
+    goal: "My current goal is to begin my career as a Junior Penetration Tester while continuously improving my offensive security, networking, and secure development skills.",
   },
 };
