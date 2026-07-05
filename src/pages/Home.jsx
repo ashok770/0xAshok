@@ -4,7 +4,9 @@ import FeaturedLabs from "../components/labs/FeaturedLabs";
 import FeaturedProjects from "../components/projects/FeaturedProjects";
 import SkillsSection from "../components/skills/SkillsSection";
 import AboutSection from "../components/about/AboutSection";
-
+import TimelineSection from "../components/timeline/TimelineSection";
+import WriteupsSection from "../components/writeups/WriteupsSection";
+import ContactSection from "../components/contact/ContactSection";
 const Home = () => {
   return (
     <>
@@ -14,6 +16,9 @@ const Home = () => {
       <FeaturedLabs />
       <SkillsSection />
       <AboutSection />
+      <TimelineSection />
+      <WriteupsSection />
+      <ContactSection />
     </>
   );
 };

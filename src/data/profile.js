@@ -25,6 +25,14 @@ export const profile = {
     email: "mailto:yourmail@example.com",
   },
 
+  contact: {
+    email: "ashoktamata6002@gmail.com",
+    location: "Tamil Nadu, India",
+    github: "https://github.com/ashok770",
+    linkedin: "https://linkedin.com/in/your-linkedin",
+    resume: "/resume/Ashok_Tamata_Resume.pdf",
+  },
+
   about: {
     heading: "About Me",
 
