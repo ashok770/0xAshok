@@ -4,7 +4,10 @@ import TerminalCard from "./TerminalCard";
 
 const Hero = () => {
   return (
-    <section className="min-h-[90vh] flex items-center pt-24 pb-16 bg-slate-950">
+    <section
+      id="home"
+      className="min-h-[90vh] flex items-center pt-24 pb-16 bg-slate-950"
+    >
       <Container className="grid lg:grid-cols-2 gap-20 items-center">
         <HeroContent />
 

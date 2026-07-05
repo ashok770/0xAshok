@@ -5,7 +5,7 @@ import { timeline } from "../../data/timeline";
 
 const TimelineSection = () => {
   return (
-    <section className="bg-slate-950 py-24">
+    <section id="timeline" className="bg-slate-950 py-24">
       <Container>
         <SectionTitle
           subtitle="My Journey"

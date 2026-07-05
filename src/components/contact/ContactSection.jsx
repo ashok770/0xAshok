@@ -10,7 +10,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const ContactSection = () => {
   return (
-    <section className="bg-slate-950 py-24">
+    <section id="contact" className="bg-slate-950 py-24">
       <Container>
         <SectionTitle subtitle="Get In Touch" title="Let's Connect" />
 

@@ -8,7 +8,7 @@ const FeaturedLabs = () => {
   const featuredLabs = labs.filter((lab) => lab.featured);
 
   return (
-    <section className="py-24 bg-slate-950">
+    <section id="labs" className="py-24 bg-slate-950">
       <Container>
         <SectionTitle
           subtitle="Hands-on Practice"

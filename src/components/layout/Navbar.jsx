@@ -17,19 +17,42 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div className="flex items-center gap-8">
-          {navigationLinks.map((item) => (
-            <NavLink
-              key={item.id}
-              to={item.path}
-              className={({ isActive }) =>
-                isActive
-                  ? "text-green-400 font-medium"
-                  : "text-slate-300 hover:text-white transition"
-              }
-            >
-              {item.title}
-            </NavLink>
-          ))}
+          {navigationLinks.map((item) => {
+            const slug = item.path.replace(/^\//, "");
+            const anchorTargets = [
+              "about",
+              "projects",
+              "labs",
+              "writeups",
+              "contact",
+            ];
+
+            if (anchorTargets.includes(slug)) {
+              return (
+                <a
+                  key={item.id}
+                  href={`#${slug}`}
+                  className="text-slate-300 hover:text-white transition"
+                >
+                  {item.title}
+                </a>
+              );
+            }
+
+            return (
+              <NavLink
+                key={item.id}
+                to={item.path}
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-green-400 font-medium"
+                    : "text-slate-300 hover:text-white transition"
+                }
+              >
+                {item.title}
+              </NavLink>
+            );
+          })}
         </div>
 
         {/* Resume Button */}

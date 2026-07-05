@@ -6,7 +6,7 @@ import { writeups } from "../../data/writeups";
 
 const WriteupsSection = () => {
   return (
-    <section className="bg-slate-950 py-24">
+    <section id="writeups" className="bg-slate-950 py-24">
       <Container>
         <SectionTitle subtitle="Knowledge Sharing" title="Latest Writeups" />
 

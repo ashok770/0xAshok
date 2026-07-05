@@ -5,7 +5,7 @@ import { profile } from "../../data/profile";
 
 const AboutSection = () => {
   return (
-    <section className="bg-slate-900 py-24">
+    <section id="about" className="bg-slate-900 py-24">
       <Container>
         <SectionTitle subtitle="Who I Am" title="About Me" />
 

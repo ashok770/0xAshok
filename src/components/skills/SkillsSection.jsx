@@ -5,7 +5,7 @@ import { skills } from "../../data/skills";
 
 const SkillsSection = () => {
   return (
-    <section className="bg-slate-950 py-24">
+    <section id="skills" className="bg-slate-950 py-24">
       <Container>
         <SectionTitle
           subtitle="Technical Skills"
