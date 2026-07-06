@@ -1,5 +1,6 @@
 import Badge from "../common/Badge";
 import Button from "../common/Button";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -31,7 +32,12 @@ const ProjectCard = ({ project }) => {
 
         <div className="mt-auto flex gap-4 pt-8 w-full">
           <div className="flex-1">
-            <Button>View Details</Button>
+            <Link
+              to={`/projects/${project.slug}`}
+              className="block rounded-xl border border-green-500 bg-green-500 px-6 py-3 text-center text-sm font-medium text-black transition hover:bg-green-400"
+            >
+              View Details
+            </Link>
           </div>
           <div className="flex-1">
             <Button variant="secondary">GitHub</Button>
