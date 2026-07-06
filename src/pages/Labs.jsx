@@ -1,9 +1,7 @@
+import LabsPageContent from "../components/labs/LabsPageContent";
+
 const Labs = () => {
-  return (
-    <div>
-      <h1>Labs</h1>
-    </div>
-  );
+  return <LabsPageContent />;
 };
 
 export default Labs;

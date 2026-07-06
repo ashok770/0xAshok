@@ -1,9 +1,7 @@
+import WriteupsPageContent from "../components/writeups/WriteupsPageContent";
+
 const Writeups = () => {
-  return (
-    <div>
-      <h1>Writeups</h1>
-    </div>
-  );
+  return <WriteupsPageContent />;
 };
 
 export default Writeups;
