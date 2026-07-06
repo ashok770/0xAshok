@@ -28,7 +28,7 @@ const FeaturedLabs = () => {
         </div>
 
         <div className="mt-12 flex justify-center">
-          <Button>View All Labs →</Button>
+          <Button to="/labs">View All Labs →</Button>
         </div>
       </Container>
     </section>

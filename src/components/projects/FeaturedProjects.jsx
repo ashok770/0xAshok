@@ -25,7 +25,7 @@ const FeaturedProjects = () => {
         </div>
 
         <div className="mt-12 flex justify-center">
-          <Button>View All Projects →</Button>
+          <Button to="/projects">View All Projects →</Button>
         </div>
       </Container>
     </section>

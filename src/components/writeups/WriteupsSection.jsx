@@ -23,7 +23,7 @@ const WriteupsSection = () => {
         </div>
 
         <div className="mt-12 flex justify-center">
-          <Button>View All Writeups →</Button>
+          <Button to="/writeups">View All Writeups →</Button>
         </div>
       </Container>
     </section>
